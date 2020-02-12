@@ -1,0 +1,85 @@
+<div class="filter-section">
+    <div class="filter">
+      <input type="checkbox"
+      id="gender-options" class="toggle" />
+      <label class="title" for="gender-options">Gender</label>
+      <div class="content">
+        <div class="gender">
+          <div class="option">Male</div>
+          <div class="option">Female</div>
+        </div>
+      </div>
+    </div>
+    <div class="filter">
+      <input type="checkbox"
+      id="brand-options" class="toggle" />
+      <label class="title" for="brand-options">Brand</label>
+      <div class="content">
+        <div class="size">
+          <div class="option">Nike</div>
+          <div class="option">Addidas</div>
+          <div class="option">Puma</div>
+          <div class="option">New Balance</div>
+          <div class="option">Timberland</div>
+          <div class="option">Gola</div>
+        </div>
+      </div>
+    </div>
+    <div class="filter">
+      <input type="checkbox"
+      id="price-options" class="toggle" />
+      <label class="title" for="price-options">Price</label>
+      <div class="content">
+        <div class="price">
+            <input type="text" name="min" placeholder="min"  class="option">
+            <input  type="text" name="max" placeholder="max"  class="option">
+          </div>
+        </div>
+      </div>
+    <div class="filter">
+      <input type="checkbox"
+      id="size-options" class="toggle" />
+      <label class="title" for="size-options">Size</label>
+      <div class="content">
+        <div class="size">
+          <div class="option">4</div>
+          <div class="option">4.5</div>
+          <div class="option">5</div>
+          <div class="option">5.5</div>
+          <div class="option">6</div>
+          <div class="option">6.5</div>
+          <div class="option">7</div>
+          <div class="option">7.5</div>
+          <div class="option">8</div>
+          <div class="option">8.5</div>
+          <div class="option">9</div>
+          <div class="option">9.5</div>
+          <div class="option">10</div>
+          <div class="option">10.5</div>
+          <div class="option">11</div>
+          <div class="option">11.5</div>
+          <div class="option">12</div>
+          <div class="option">12.5</div>
+        </div>
+      </div>
+    </div>
+      <button type="button" name="button">Filter</button>
+    </div>
+        <div class="all-products-grid">
+          @each(product in products)
+          <div class="product-wrap">
+            <div class="product">
+              <div class="circle">
+                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D720/media/catalog/product/f/u/fu9161_1_1_1.png" alt="">
+              </div>
+            </div>
+            <div class="title">
+              boost 350 white
+            </div>
+            <div class="price">
+              $350
+            </div>
+          </div>
+      @endeach
+          </div>
+        </section>

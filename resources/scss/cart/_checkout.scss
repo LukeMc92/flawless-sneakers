@@ -1,0 +1,51 @@
+.content-area.checkout-page{
+  padding: 116px 0;
+  h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .checkout-grid{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    grid-gap: 20px;
+  }
+  .forms{
+h3{
+  font-size: 1.7rem;
+  margin: 1.5rem 0;
+
+}
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+label{
+  display: block;
+  margin-bottom: 1rem;
+}
+input{
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+}
+  }
+
+  .totals{
+    h3{
+      font-size: 1.7rem;
+      margin: 1.5rem 0;
+    }
+    .items,.tax,.shipping,.total{
+      margin: 0  0 1.3rem;
+      text-transform: capitalize;
+      font-weight: 300;
+      font-size: 1.6rem;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+
+}
